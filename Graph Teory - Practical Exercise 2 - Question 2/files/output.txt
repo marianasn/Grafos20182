@@ -12,11 +12,15 @@ Links: [{M9,M1}, {M8,M1}, {M8,M9}, {M11,M8}, {M3,M11}, {M7,M11}, {M11,M20}, {M19
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M1
 
 Better path to M1: [{M8,C}, {M8,M1}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M2
 
@@ -24,11 +28,15 @@ Better path to M2: [{C,M5}, {M12,M5}, {M2,M12}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M3
 
 Better path to M3: [{M11,C}, {M3,M11}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M4
 
@@ -36,11 +44,15 @@ Better path to M4: [{C,M14}, {M14,M4}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M5
 
 Better path to M5: [{C,M5}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M6
 
@@ -48,11 +60,15 @@ Better path to M6: [{C,M14}, {M6,M14}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M7
 
 Better path to M7: [{M11,C}, {M7,M11}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M8
 
@@ -60,11 +76,15 @@ Better path to M8: [{M8,C}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M9
 
 Better path to M9: [{M8,C}, {M8,M9}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M10
 
@@ -72,11 +92,15 @@ Better path to M10: [{C,M14}, {M14,M10}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M11
 
 Better path to M11: [{M11,C}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M12
 
@@ -84,17 +108,23 @@ Better path to M12: [{C,M5}, {M12,M5}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M13
 
 Better path to M13: [{C,M5}, {M12,M5}, {M13,M12}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M14
 
 Better path to M14: [{C,M14}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M15
 
@@ -107,11 +137,15 @@ Better path to M16: [{M11,C}, {M19,M11}, {M16,M19}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M17
 
 Better path to M17: [{C,M5}, {M17,M5}]
 
 -*- SHEARCH PATH MENU -*-
+
+Enter 'E' to exit.
 
 Choose the machine> M18
 
@@ -124,15 +158,20 @@ Better path to M19: [{M11,C}, {M19,M11}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> M20
 
 Better path to M20: [{M11,C}, {M11,M20}]
 
 -*- SHEARCH PATH MENU -*-
 
+Enter 'E' to exit.
+
 Choose the machine> C
 
 The name insert is not valid.
 Please, enter a valid machine.
 
-Choose the machine> 
+Choose the machine> E
+
