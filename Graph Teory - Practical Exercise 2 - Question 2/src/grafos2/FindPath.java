@@ -9,7 +9,7 @@ import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 
 public class FindPath {
 
-	public static GraphPath<Object, RelationshipEdge> searchSmallestPath(Graph<Object, RelationshipEdge> graphGml, Object sink) {
+	public static GraphPath<Object, RelationshipEdge> searchShortestPath(Graph<Object, RelationshipEdge> graphGml, Object sink) {
 		DefaultVertex C = findMachine(graphGml, "C");
 		DefaultVertex M = findMachine(graphGml, sink);
 		return DijkstraShortestPath.findPathBetween(graphGml, C, M);
