@@ -44,7 +44,7 @@ public class Search {
 		
 		Object machine = readMachine();
 		System.out.println(line
-				+ "Better path to " + machine + ": " + FindPath.buscaMenorCaminho(graphGml, machine));
+				+ "Better path to " + machine + ": " + FindPath.searchSmallestPath(graphGml, machine));
 	}
 
 	private static String machineChoose() {
