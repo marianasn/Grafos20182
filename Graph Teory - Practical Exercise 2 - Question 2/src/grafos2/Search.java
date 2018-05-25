@@ -62,8 +62,8 @@ public class Search {
 		}
 		return false;
 	}
-
-        private static Object readMachine() {
+	
+	private static Object readMachine() {
 		while (true) {
 			String machine = machineChoose();
 			if (machine.toUpperCase().equals("E")) 
