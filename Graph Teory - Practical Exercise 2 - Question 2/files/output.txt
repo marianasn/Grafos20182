@@ -1,0 +1,138 @@
+This program  is responsible to  find a path between
+a Manager Machine and another machine. The user only
+input the name of the  machine that he want find the
+path.
+!Observation: As the imported graph is not directed,
+the  edge {a, b} is equals to {b, a}.  Where a and b
+are any vertices of the imported GML graph.
+
+Graph Imported from GML file:
+Machines: [M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11, M12, M13, M14, M16, M16, M17, C, M19, M20]
+Links: [{M9,M1}, {M8,M1}, {M8,M9}, {M11,M8}, {M3,M11}, {M7,M11}, {M11,M20}, {M19,M11}, {M3,M1}, {M3,M7}, {M7,M19}, {M17,M19}, {M11,C}, {M16,M19}, {M17,M7}, {C,M5}, {M17,M16}, {C,M14}, {M17,M3}, {M12,M5}, {M14,M5}, {M14,M10}, {M6,M14}, {M6,M10}, {M6,M20}, {M12,M3}, {M12,M17}, {M14,M16}, {M16,M12}, {M14,M4}, {M4,M6}, {M2,M12}, {M13,M12}, {M13,M16}, {M13,M6}, {M6,M2}, {M2,M3}, {M2,M13}, {M8,C}, {M17,M5}, {M16,M1}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M1
+
+Better path to M1: [{M8,C}, {M8,M1}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M2
+
+Better path to M2: [{C,M5}, {M12,M5}, {M2,M12}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M3
+
+Better path to M3: [{M11,C}, {M3,M11}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M4
+
+Better path to M4: [{C,M14}, {M14,M4}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M5
+
+Better path to M5: [{C,M5}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M6
+
+Better path to M6: [{C,M14}, {M6,M14}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M7
+
+Better path to M7: [{M11,C}, {M7,M11}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M8
+
+Better path to M8: [{M8,C}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M9
+
+Better path to M9: [{M8,C}, {M8,M9}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M10
+
+Better path to M10: [{C,M14}, {M14,M10}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M11
+
+Better path to M11: [{M11,C}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M12
+
+Better path to M12: [{C,M5}, {M12,M5}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M13
+
+Better path to M13: [{C,M5}, {M12,M5}, {M13,M12}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M14
+
+Better path to M14: [{C,M14}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M15
+
+The name insert is not valid.
+Please, enter a valid machine.
+
+Choose the machine> M16
+
+Better path to M16: [{M11,C}, {M19,M11}, {M16,M19}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M17
+
+Better path to M17: [{C,M5}, {M17,M5}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M18
+
+The name insert is not valid.
+Please, enter a valid machine.
+
+Choose the machine> M19
+
+Better path to M19: [{M11,C}, {M19,M11}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> M20
+
+Better path to M20: [{M11,C}, {M11,M20}]
+
+-*- SHEARCH PATH MENU -*-
+
+Choose the machine> C
+
+The name insert is not valid.
+Please, enter a valid machine.
+
+Choose the machine> 
