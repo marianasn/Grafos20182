@@ -73,7 +73,7 @@ public class Search {
 			}
 			System.out.println(line
 					+ "The name insert is not valid." + line
-					+ "Please, enter a valid machine." + line
+					+ "Please, enter a valid machine" + line
 					+ "or enter 'E' to exit.);
 		}
 	}
