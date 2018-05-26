@@ -129,7 +129,8 @@ Enter 'E' to exit.
 Choose the machine> M15
 
 The name insert is not valid.
-Please, enter a valid machine.
+Please, enter a valid machine
+or enter 'E' to exit.
 
 Choose the machine> M16
 
@@ -150,7 +151,8 @@ Enter 'E' to exit.
 Choose the machine> M18
 
 The name insert is not valid.
-Please, enter a valid machine.
+Please, enter a valid machine
+or enter 'E' to exit.
 
 Choose the machine> M19
 
@@ -171,7 +173,8 @@ Enter 'E' to exit.
 Choose the machine> C
 
 The name insert is not valid.
-Please, enter a valid machine.
+Please, enter a valid machine
+or enter 'E' to exit.
 
 Choose the machine> E
 
