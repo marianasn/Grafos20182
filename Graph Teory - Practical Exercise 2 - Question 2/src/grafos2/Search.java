@@ -5,7 +5,14 @@ import java.util.Scanner;
 import java.util.Set;
 
 import org.jgrapht.Graph;
-
+/**
+ * @author Abel Antunes
+ * @author José Guilherme
+ * @author Mariana Nascimento
+ * @author Siuanny Barbosa
+ * 
+ * This class represents 
+ */
 public class Search {
 
 	private static final String line = System.lineSeparator();
@@ -17,8 +24,8 @@ public class Search {
 	
 	private static void showSpecifications() {
 		System.out.println("This program  is responsible to  find a path between" + line
-				+ "a Manager Machine and another machine. The user only" + line
-				+ "input the name of the  machine that he want find the" + line
+				+ "a Manager Machine and another machine. The user only needs" + line
+				+ "to input the name of the  machine that he wants to find the" + line
 				+ "path." + line
 				+ "!Observation: As the imported graph is not directed," + line
 				+ "the  edge {a, b} is equals to {b, a}.  Where a and b" + line
