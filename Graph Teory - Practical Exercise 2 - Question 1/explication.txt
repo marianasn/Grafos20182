@@ -1,0 +1,17 @@
+Universidade Federal de Campina Grande
+Disciplina: Teoria dos Grafos
+
+Alunos: Abel Antunes
+	José Guilherme
+	Mariana Nascimento
+	Siuanny Barbosa
+
+Questão 1 - Justificando o uso do layout de visualização para o arquivo airlineAA.xlsx
+
+O arquivo representa a linha aérea AA e seus registros de vôos. Para cada aeroporto, 
+existem vôos de chegada e de saída.
+Para representar todo o fluxo de vôos a fim de visualizar melhor as chegadas,
+saídas e os pesos de cada aresta (cnt), foi escolhido o layout Circular BCC Compact, 
+pois este permite uma melhor visualização de todas as arestas (que representa o vôo entre dois aeroportos),
+permite também a visualização dos aeroportos de maior movimentação (DFW, LAX, ORD e MIA) 
+e os aeroportos que têm acesso a outros grupos (DFW, LAX e MIA), também é possível identificar os pesos de cada aresta.
