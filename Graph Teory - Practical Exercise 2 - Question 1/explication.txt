@@ -12,6 +12,7 @@ O arquivo utilizado representa a linha aérea AA e seus registros de vôos. Para
 existem vôos de chegada e de saída.
 Para representar bem um grafo, é preciso buscar um layout que preze pela compreensão,
 usabilidade, construção e estética.
+
 Portanto, a fim de visualizar e compreender todo o fluxo dos vôos, chegadas,
 saídas e os pesos de cada aresta (cnt), foi escolhido o layout Circular BCC Compact, pois este permite
 que o número do cruzamento de arestas seja suficiente e proporcional para melhor visualização das arestas.

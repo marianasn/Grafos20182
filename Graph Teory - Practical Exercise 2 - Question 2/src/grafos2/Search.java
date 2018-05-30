@@ -50,9 +50,9 @@ public class Search {
 	}
 
 	/**
-	 * This method reads the Machine that the user wants to know the path
-	 * and prints the better path for the Machine. (To find the better path, the method
-	 * access another method in the class FindPath).
+	 * This method reads the Machine that the user wants to know the path and prints
+	 * the better path for the Machine. (To find the better path, the method access
+	 * another method in the class FindPath).
 	 */
 	private static void menuSearchPath() {
 		System.out.println(line + "-*- SHEARCH PATH MENU -*-" + line + line + "Enter 'E' to exit.");
@@ -63,15 +63,17 @@ public class Search {
 
 	/**
 	 * This method prints the command to choose the machine.
+	 * 
 	 * @return the machine selected
 	 */
 	private static String machineChoose() {
 		System.out.print(line + "Choose the machine> ");
 		return sc.nextLine();
 	}
+
 	/**
-	 * This method validates the machine entered comparing the 
-	 * Object v with the string "C" and the machine. 
+	 * This method validates the machine entered comparing the Object v with the
+	 * string "C" and the machine.
 	 * 
 	 * @param machine
 	 * @return a boolean value
@@ -85,10 +87,11 @@ public class Search {
 		}
 		return false;
 	}
-	
+
 	/**
-	 * This method reads the Machine entered by the user
-	 * and verifies if the Machine is valid by the method validateMachine().
+	 * This method reads the Machine entered by the user and verifies if the Machine
+	 * is valid by the method validateMachine().
+	 * 
 	 * @return
 	 */
 	private static Object readMachine() {
@@ -103,9 +106,10 @@ public class Search {
 					+ "or enter 'E' to exit.");
 		}
 	}
-	
+
 	/**
 	 * The main of the program using the methods in it's scope.
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {

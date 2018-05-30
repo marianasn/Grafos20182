@@ -6,7 +6,7 @@ package grafos2;
  * @author Mariana Nascimento
  * @author Siuanny Barbosa
  * 
- * This class represents de relationship between two vertices (v1,v2).
+ *         This class represents de relationship between two vertices (v1,v2).
  */
 public class RelationshipEdge {
 
@@ -41,18 +41,17 @@ public class RelationshipEdge {
 	public Object getV2() {
 		return v2;
 	}
-	
+
 	/**
 	 * This method compares the object v to v1 and v2.
 	 * 
 	 * @param v
-	 * @return v2, if true.
-	 * 		   v1, if false.
+	 * @return v2, if true. v1, if false.
 	 */
 	public Object getNeighbour(Object v) {
 		return (v.equals(v1)) ? v2 : v1;
 	}
-	
+
 	/**
 	 * 
 	 * @param e
@@ -61,10 +60,9 @@ public class RelationshipEdge {
 	public boolean equals(RelationshipEdge e) {
 		return (this.getLabel()).equals(e.getLabel());
 	}
-	
+
 	/**
-	 * The String representation of the edge between
-	 * v1 and v2.
+	 * The String representation of the edge between v1 and v2.
 	 */
 	@Override
 	public String toString() {
